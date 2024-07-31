@@ -7,4 +7,10 @@ export const routes: Routes = [
         loadComponent: () =>
             import('./pages/index/index.component').then((m) => m.IndexComponent),
     },
+    {
+        path: 'baar-data-visualizer',
+        title: 'BAAR data visualizer - BAAR utils',
+        loadComponent: () =>
+            import('./pages/baar-data-visualizer/baar-data-visualizer.component').then((m) => m.BaarDataVisualizerComponent),
+    },
 ];
