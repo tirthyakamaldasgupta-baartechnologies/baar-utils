@@ -1,5 +1,7 @@
 @import "bootstrap-icons/font/bootstrap-icons.css";
 
 body {
-  font-family: "Roboto" !important;
+  font-family: "Roboto";
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
